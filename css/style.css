@@ -1,0 +1,37 @@
+/* UTILITY */
+:root {
+	--color-white: #ffffff;
+	--color-bggrey: #f6f6f6;
+	--color-headerblue: #255ee9;
+	--color-secondarypurple: #7289da;
+	--color-dsblack: #23272a;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.autocenter{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body{
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+/* HEADER* /
+
+/* MAIN */
+
+/* FOOTER */
