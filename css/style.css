@@ -116,7 +116,7 @@ main section{
     /* min-height: 300px; */
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 50px 0px;
     line-height: 30px;
     font-size: 1.2em;
@@ -129,7 +129,7 @@ main section{
  }
 
 .caption{
-    /* margin-top: 30px; */
+    margin-top: 30px;
     max-width: 400px;
 }
 
@@ -138,6 +138,34 @@ main section:nth-child(even){
     padding: 50px 0px;
 }
 
+#center-last-section{
+    max-width: 80%;
+}
+
+main section:last-child{
+    align-items: center;
+    flex-flow: nowrap column;
+    text-align: center;
+}
+
+/* LAST SECTION */
+.mfoot{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 17%;
+
+}
+.mfoot h4{
+    margin: 40px 0px;
+}
+.btn-purple{
+    background-color: var(--color-secondarypurple);
+}
+
+.btn-purple i{
+    padding: 4px;
+}
 
 /* FOOTER */
 footer ul{
