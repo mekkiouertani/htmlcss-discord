@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="css/style.css">
     <title>Discord</title>
 </head>
@@ -14,26 +14,52 @@
 
     <header>
         <!-- BARRA DI NAVIGAZIONE -->
-        <nav class="autocenter d-flex debug">
+        <nav class="autocenter d-flex">
             <img src="img/logo.svg" alt="Logo Discord">
             <ul class="d-flex">
-                <li>Scarica</li>
-                <li>Perché Discord</li>  
-                <li>Nitro</li>
-                <li>Sicurezza</li>
-                <li>Assistenza</li>
+                <a href="#">
+                    <li>
+                        Scarica
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Perché Discord
+                    </li>
+                </a>  
+                <a href="#">
+                    <li>
+                        Nitro
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Sicurezza
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        Assistenza
+                    </li>
+                </a>
             </ul>
-            <a href="#">Accedi</a>
+            <a href="#" class="button btn-white">Accedi</a>
         </nav>
         <!-- BACKGROUND TITOLO E TESTO INTRODUTTIVO -->
         <div class="hero-background">
-            <section class="welcome-info debug">
+            <section class="welcome-info">
                 <h1>Il tuo posto per parlare</h1>
                 <p>
                     Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, <br> o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, <br>Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
                 </p>
-                <span>Scarica per Mac</span>
-                <span>Apri Discord Nel tuo browser</span>
+                <!-- buttons -->
+                <a href="#" class="button btn-white">
+                    <i class="fa-solid fa-arrow-down-long"></i>
+                    Scarica per Mac
+                </a>
+                <a href="#" class="button btn-black">
+                    Apri Discord Nel tuo browser
+                </a>
             </section>
         </div>
     </header>

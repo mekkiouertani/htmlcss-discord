@@ -35,6 +35,15 @@ ul{
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 body{
     font-family: 'Pontano Sans', sans-serif;
     background-color: rgb(0, 77, 77);
@@ -45,6 +54,7 @@ body{
 header{
     background-color: var(--color-headerblue);
     color: white;
+    padding-top: 10px;
 }
 
 header li{
@@ -72,14 +82,34 @@ header li{
 
 .welcome-info h1{
     font-size: 2em;
-    font-weight: bolder;
+    font-weight: bold;
     margin-bottom: 30px;
+    letter-spacing: 2px;
 }
 
-.welcome-info span{
-    padding: 30px 10px;
+/* BUTTONS WELCOME INFO */
+.button{
+    font-size: 0.8em;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-weight: 500;
+    margin: 5px 10px;
+    font-weight: bold;
 }
 
+.btn-white{
+    color: black;
+    background-color: white;    
+}
+
+.btn-black{
+    color: rgb(255, 255, 255);
+    background-color: var(--color-dsblack);
+}
+
+.btn-white i{
+    font-size: 0.8em;
+}
 
 /* MAIN */
 section{
