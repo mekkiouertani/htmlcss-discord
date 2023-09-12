@@ -76,6 +76,7 @@ header{
     background-color: var(--color-headerblue);
     color: white;
     padding-top: 10px;
+    /* margin-bottom: 100px; */
 }
 
 /* header li{
@@ -108,6 +109,10 @@ header{
     letter-spacing: 2px;
 }
 
+.welcome-info p{
+    padding-bottom: 20px;
+}
+
 /* BUTTONS WELCOME INFO */
 
 .btn-white{
@@ -130,7 +135,7 @@ main section{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    /* margin-top: 100px; */
     line-height: 30px;
     font-size: 1.2em;
 }
@@ -147,9 +152,9 @@ main section{
     max-width: 500px;
 }
 
-main section:nth-child(even){
+.even{
     background-color: var(--color-bggrey);
-    padding: 100px 0px;
+    /* padding-bottom: 100px; */
 }
 
 #center-last-section{
@@ -162,8 +167,23 @@ main section:last-child{
     text-align: center;
     padding-bottom: 100px;
 }
+.wave{
+    /* margin-top: 100px; */
+    width: 100%;
+    opacity: 0.03;
+}
+.wave img{
+    display: block;
+    width: 100%;
+}
 
+.m-bottom{
+    padding: 100px 0px;
+}
 
+.wave-reverse img{
+    transform: rotate(180deg);
+}
 /* LAST SECTION */
 .mfoot{
     /* font-size: 1.5em; */
