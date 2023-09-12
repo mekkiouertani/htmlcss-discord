@@ -21,7 +21,7 @@
 
 .footer-d-flex{
     display: flex;
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
     justify-content: space-between; 
     align-items: flex-start;
     /* align-content: space-evenly;  */
@@ -62,7 +62,7 @@ a:hover{
     border-radius: 20px;
     padding: 5px 15px;
     font-weight: 500;
-    margin: 5px 10px;
+    /* margin: 5px 10px; */
     font-weight: bold;
 }
 
@@ -78,7 +78,7 @@ body{
 
 /* HEADER */
 header{
-    background-color: var(--color-headerblue);
+    background-color: var(--color-dsblack);
     color: white;
     padding-top: 10px;
     /* margin-bottom: 100px; */
@@ -93,8 +93,8 @@ header li{
     font-weight: 400;
 }
  
-.hero-background{
-    min-height: 650px;
+/* .hero-background{
+    min-height: 600px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     display: flex;
@@ -121,7 +121,7 @@ header li{
 
 .welcome-info p{
     padding-bottom: 20px;
-}
+} */
 
 /* BUTTONS WELCOME INFO */
 
@@ -142,15 +142,15 @@ header li{
     font-size: 0.8em;
 }
 
-/* MAIN */
+/* /* MAIN */
 main section{
     /* min-height: 300px; */
     display: flex;
     /* align-items: center; */
     align-items: space-between;
-    /* margin-top: 100px; */
+    /* margin-top: 100px; 
     line-height: 30px;
-    font-size: 1.2em;
+    font-size: 1.2em; */
 }
 
 
@@ -284,3 +284,109 @@ option{
     display: block;
     text-indent:-9999em;
 }
+/* -----------------PAGINA DOWNLOAD  */
+.hero-background{
+    padding: 100px 0;
+}
+
+.welcome-info{
+    width: 45%
+}
+
+.hero-image{
+    width: 55%;
+}
+
+.hero-image img{
+    width: 100%
+} 
+
+.n-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-between{
+    align-items: space-between;
+}
+
+.jf-space-between{
+    justify-content: space-between;
+}
+
+.column{
+    flex-direction: column;
+}
+
+
+.hero-background{
+    font-size: 1.3em;
+    padding-bottom: 30px;
+    word-spacing: 0.2em;
+}
+
+h1{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    line-height: 0.8;
+    padding-bottom: 40px;
+}
+
+.hero-background p{
+    padding-bottom: 30PX;
+}
+
+.box-button a{
+    font-size: 1.1em;
+ /* display: block; */
+ margin-top: 10px;
+}
+
+.box-button span{
+    margin: 15px 20px;
+    font-size: 0.8em;
+}
+
+
+
+/* ---------------MAIN */
+main{
+    margin-top: 70px;
+}
+
+.bg-grey{
+    background-color: grey;
+    border-radius: 3%;
+    width: 500px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.box-main-info{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.box-main-image{
+    display: block;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.box-main-image img{
+    max-width: 100%;
+    object-fit:fill;
+}
+
+.bg-grey a{
+    font-size: 1.3em;
+}
+
+main section:nth-child(2){
+    margin-top: 10%;
+}
+

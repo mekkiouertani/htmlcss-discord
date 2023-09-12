@@ -7,17 +7,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="css/style.css">
-    <title>Discord</title>
+    <link rel="stylesheet" href="css-download/style.css">
+    <title>Download Discord</title>
 </head>
-<body>
+<body id="download">
 
     <header>
         <!-- BARRA DI NAVIGAZIONE -->
         <nav class="autocenter d-flex">
-            <img src="img/logo.svg" alt="Logo Discord">
+            <img src="../img/logo.svg" alt="Logo Discord">
             <ul class="d-flex">
-                <a href="pages/download.html">
+                <a href="#">
                     <li>
                         Scarica
                     </li>
@@ -46,93 +46,68 @@
             <a href="#" class="button btn-white" id="button-login">Accedi</a>
         </nav>
         <!-- BACKGROUND TITOLO E TESTO INTRODUTTIVO -->
-        <div class="hero-background">
-            <section class="welcome-info">
-                <h1>Il tuo posto per parlare</h1>
+        <div class="autocenter hero-background n-flex debug">
+            <section class="welcome-info debug">
+                <h1>OTTIENI DISCORD PER QUALSIASI DISPOSITIVO</h1>
                 <p>
-                    Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, <br> o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, <br>Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+                    Un'avventura ti aspetta. Passa il tempo con i tuoi amici sulla nostra applicazione per desktop e tieni viva la conversazione su mobile.
                 </p>
                 <!-- buttons -->
-                <a href="#" class="button btn-white">
-                    <i class="fa-solid fa-arrow-down-long"></i>
-                    Scarica per Mac
-                </a>
-                <a href="#" class="button btn-black">
-                    Apri Discord Nel tuo browser
-                </a>
+                <div class="box-button n-flex  align-items-center debug">
+                    <a href="#" class="button btn-purple">
+                        <i class="fa-solid fa-arrow-down-long"></i>
+                        Scarica per Windows
+                    </a>
+                    <span>
+                        Windows 7 o superiore
+                    </span>
+                </div>
             </section>
+            <div class="hero-image debug">
+                <img src="../img-download/hero-discord.svg" alt="disegno di un portatile">
+            </div>
         </div>
     </header>
     <!-- MAIN -->
     <main>
+
+        <div class="autocenter n-flex debug">
+
+            <section class="bg-grey n-flex align-items-center column debug">
+                <div class="box-main-info debug">
+                    <h2>iOS</h2>
+                    <a href="#" class="button btn-black">Scarica</a>
+                </div>             
+                <div class="box-main-image debug">
+                    <img src="../img-download/item1.svg" alt="smartphone" class="debug">
+                </div>
+            </section>
+
+
+            <section class="bg-grey n-flex align-items-center column debug">
+                <div class="box-main-info debug">
+                    <h2>iOS</h2>
+                    <a href="#" class="button btn-black">Scarica</a>
+                </div>             
+                <div class="box-main-image debug">
+                    <img src="../img-download/item2.svg" alt="smartphone android" class="debug">
+                </div>
+            </section>
+
+
+
+            <section class="n-flex">
+
+            </section>
+
+
+            <section class="n-flex">
+
+            </section>
+
+
+        </div>
         
-        <section class="maincenter m-bottom">
-            <div class="box-image">
-                <img src="img/item1.svg" alt="Interfaccia n.1"> 
-            </div>   
-            <div class="caption">
-                <h2>Crea uno spazio su invito in cui sentirti partecipe</h2>
-                <p>
-                    I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
-                </p>
-            </div>
-        </section>
-
-        <div class="wave">
-            <img src="img/wave.svg" alt="onda">
-        </div>
-
-        <section class="even">
-                <div class="maincenter d-flex">
-                    <div class="caption">
-                        <h2>Dove trovarsi è facile</h2>
-                        <p>
-                            Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che se li e unirsi istantaneamente senza dover chiamare.
-                        </p>
-                    </div>
-                    <div class="box-image">
-                        <img src="img/item2.svg" alt="Interfaccia n.2">
-                    </div>
-                </div>  
-        </section>
-
-        <div class="wave wave-reverse">
-            <img src="img/wave.svg" alt="onda">
-        </div>
-
-        <section class="maincenter m-bottom">
-            <div class="box-image">
-                <img src="img/item3.svg" alt="Interfaccia n.3"> 
-            </div>   
-            <div class="caption">
-                <h2>Da pochi a un fandom</h2>
-                <p>
-                    Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro.
-                </p>
-            </div>
-        </section>
-
-        <div class="wave">
-            <img src="img/wave.svg" alt="onda">
-        </div>
-
-        <section class="even">
-            <div class="caption" id="center-last-section">
-                <h2>Tecnologia affidabile per tenersi in contatto</h2>
-                <p>
-                    Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. <br>Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
-                </p>
-            </div>
-            <img src="img/item4-big.svg" alt="Interfaccia n.4">    
-            <div class="mfoot">
-                <h4>Pronto a iniziare la tua avventura?</h4>
-                <a href="#" class="button btn-purple">
-                    <i class="fa-solid fa-arrow-down-long">
-
-                    </i>Scarica per Mac
-                </a>
-            </div>
-        </section>
     </main>
  <!-- FOOTER -->
     <div class="bg-black">
