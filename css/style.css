@@ -37,6 +37,11 @@ ul{
     margin: auto;
 }
 
+.maincenter{
+    max-width:1000px;
+    margin: auto;
+}
+
 *{ 
     margin: 0;
     padding: 0;
@@ -54,7 +59,7 @@ a:hover{
 
 .button{
     font-size: 0.8em;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 5px 15px;
     font-weight: 500;
     margin: 5px 10px;
@@ -79,10 +84,15 @@ header{
     /* margin-bottom: 100px; */
 }
 
-/* header li{
-    padding: 0px 20px;
+header li{
+   font-weight: bold;
 }
- */
+
+#button-login{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+ 
 .hero-background{
     min-height: 650px;
     background-image: url(../img/jumbo.png);
@@ -116,11 +126,14 @@ header{
 /* BUTTONS WELCOME INFO */
 
 .btn-white{
+    padding: 10px 20px;
     color: black;
     background-color: white;    
+  /*   padding: 8px 10px; */
 }
 
 .btn-black{
+    padding: 10px 20px;
     color: rgb(255, 255, 255);
     background-color: var(--color-dsblack);
 }
@@ -133,23 +146,30 @@ header{
 main section{
     /* min-height: 300px; */
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    align-items: space-between;
     /* margin-top: 100px; */
     line-height: 30px;
     font-size: 1.2em;
 }
- main h2{
-    font-size: 2.6em;
+
+
+
+main h2{
+    font-size: 2.5em;
     margin-bottom: 30px;
     line-height: 1.2em;
-    font-weight: 800;
- }
+    font-weight: bold;
+}
+
+.box-image{
+    width: 65%;
+}
 
 .caption{
     padding-left: 20px;
     margin-top: 30px;
-    max-width: 500px;
+    max-width:35%;
 }
 
 .even{

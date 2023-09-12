@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="css/style.css">
     <title>Discord</title>
@@ -43,7 +43,7 @@
                     </li>
                 </a>
             </ul>
-            <a href="#" class="button btn-white" id="butto-login">Accedi</a>
+            <a href="#" class="button btn-white" id="button-login">Accedi</a>
         </nav>
         <!-- BACKGROUND TITOLO E TESTO INTRODUTTIVO -->
         <div class="hero-background">
@@ -66,34 +66,44 @@
     <!-- MAIN -->
     <main>
         
-        <section class="autocenter m-bottom">
-            <img src="img/item1.svg" alt="Interfaccia n.1">    
+        <section class="maincenter m-bottom">
+            <div class="box-image">
+                <img src="img/item1.svg" alt="Interfaccia n.1"> 
+            </div>   
             <div class="caption">
-                <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+                <h2>Crea uno spazio su invito in cui sentirti partecipe</h2>
                 <p>
                     I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.
                 </p>
             </div>
         </section>
+
         <div class="wave">
             <img src="img/wave.svg" alt="onda">
         </div>
+
         <section class="even">
-                <div class="autocenter d-flex">
+                <div class="maincenter d-flex">
                     <div class="caption">
                         <h2>Dove trovarsi è facile</h2>
                         <p>
                             Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che se li e unirsi istantaneamente senza dover chiamare.
                         </p>
                     </div>
-                    <img src="img/item2.svg" alt="Interfaccia n.2">
+                    <div class="box-image">
+                        <img src="img/item2.svg" alt="Interfaccia n.2">
+                    </div>
                 </div>  
         </section>
+
         <div class="wave wave-reverse">
             <img src="img/wave.svg" alt="onda">
         </div>
-        <section class="m-bottom">
-            <img src="img/item3.svg" alt="Interfaccia n.3">    
+
+        <section class="maincenter m-bottom">
+            <div class="box-image">
+                <img src="img/item3.svg" alt="Interfaccia n.3"> 
+            </div>   
             <div class="caption">
                 <h2>Da pochi a un fandom</h2>
                 <p>
@@ -101,9 +111,11 @@
                 </p>
             </div>
         </section>
+
         <div class="wave">
             <img src="img/wave.svg" alt="onda">
         </div>
+
         <section class="even">
             <div class="caption" id="center-last-section">
                 <h2>Tecnologia affidabile per tenersi in contatto</h2>
@@ -130,7 +142,23 @@
                     <h3>Il tuo posto per parlare</h3>
                     <img src="img/ita.png" alt="bandiera dell'Italia" height="auto" width="20px">
                     <span>Italiano</span>
-                    <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i>
+                   <!--  <details>
+                        <summary>
+                            <select id="country" name="country" class="form-control">
+                                <img src="img/ita.png" height="20px" width="20px"><option value="Italia">Italia</option>
+                                <option value="Åland Islands">Åland Islands</option>
+                                <option value="Albania">Albania</option>
+                                <option value="Algeria">Algeria</option>
+                                <option value="American Samoa">American Samoa</option>
+                                <option value="Andorra">Andorra</option>
+                                <option value="Angola">Angola</option>
+                                <option value="Anguilla">Anguilla</option>
+                                <option value="Antarctica">Antarctica</option>
+                                <option value="Antigua and Barbuda">Antigua and</option>
+                            </select>
+                        </summary>
+                    </details> -->
+                    <!-- <i class="fa-solid fa-angle-down" style="color: #ffffff;"></i> -->
                     <div class="icon-box">
                         <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
                         <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
